@@ -12,7 +12,11 @@
 #image1 {
     display: none;
 }
-
+body{
+    background-image: url(./pic5.jpg);
+    background-position: center;
+    background-size: cover;
+}
 
 /* scroll bars */
 
@@ -81,7 +85,15 @@ form>*:hover {
 div:where(.swal2-container) div:where(.swal2-loader) {
     border-color: #232323 #fff!important;
 }
-
+.name-1{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+}
+.name-1:hover{
+    color: #f1f51d;
+}
 
 /* media queries */
 
